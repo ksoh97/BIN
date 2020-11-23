@@ -6,10 +6,10 @@ epoch = 50
 batch_size = 128
 lr_decay = 0.98
 
-data_path = "/home/ksoh/server_stratification/geometric/object_hue/1/"
-save_path = "/DataCommon/ksoh/Results/Geometric/object_hue/mode%d/" % mode
-cls_weight_path = "/home/ksoh/server_stratification/geometric/object_hue/1/mode0/Disentangling_by_Factorising/1fold_cls_model_040/variables/variables"
-enc_weight_path = "/home/ksoh/server_stratification/geometric/object_hue/1/mode0/Disentangling_by_Factorising/1fold_enc_model_040/variables/variables"
+data_path = "Your data path in here"
+save_path = "Your storage path in here"
+cls_weight_path = "Pre-trained classifier model path in here"
+enc_weight_path = "Pre-trained encoder model path in here"
 
 if mode == 0:
     file_name = "Geometric_classifier_pertraining"
