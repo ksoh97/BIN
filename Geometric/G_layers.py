@@ -4,30 +4,13 @@ import tensorflow as tf
 tf.random.Generator = None
 
 l = tf.keras.layers
-W, H, D = 96, 114, 96 # for 3D brain data
 g_W, g_H = 64, 64
 c, z = 2, 2
-
-def input_layer(input_shape=(W, H, D, 1), name=None):
-    return l.Input(shape=input_shape)
 
 def input_layer2d(input_shape=(g_W, g_H, 3), name=None):
     return l.Input(shape=input_shape)
 
 def code_input_layer(input_shape=(c), name=None):
-    return l.Input(shape=input_shape)
-
-###############################################
-
-def c1(input_shape=(96, 114, 96, c), name=None):
-    return l.Input(shape=input_shape)
-def c2(input_shape=(48, 57, 48, c), name=None):
-    return l.Input(shape=input_shape)
-def c3(input_shape=(24, 28, 24, c), name=None):
-    return l.Input(shape=input_shape)
-def c4(input_shape=(12, 14, 12, c), name=None):
-    return l.Input(shape=input_shape)
-def c5(input_shape=(6, 7, 6, c), name=None):
     return l.Input(shape=input_shape)
 
 ###############################################
