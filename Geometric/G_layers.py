@@ -4,7 +4,7 @@ import tensorflow as tf
 tf.random.Generator = None
 
 l = tf.keras.layers
-W, H, D = 96, 114, 96
+W, H, D = 96, 114, 96 # for 3D brain data
 g_W, g_H = 64, 64
 c, z = 2, 2
 
