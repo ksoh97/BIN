@@ -28,7 +28,7 @@ if mode == 0:
     learning_rate = conf.lr
     learning_decay = conf.lr_decay
 
-else:
+elif mode == 1:
     epoch = conf.epoch
     batch_size = conf.batch_size
     generator_step, discriminator_step = conf.g_step, conf.d_step
@@ -39,12 +39,9 @@ else:
 
 class Trainer:
     def __init__(self):
-        if mode == 0:
-            self.save_path = (conf.save_path + file_name)
-        else:
-            self.save_path = (conf.save_path + file_name)
-
+        self.save_path = (conf.save_path + file_name)
         if not os.path.exists(self.save_path): os.makedirs(self.save_path)
+            
         self.valid_acc, self.compare_acc, self.valid_loss, self.count = 0, 0, 0, 0
         self.valid_save, self.model_select = False, False
         tf.keras.backend.set_image_data_format("channels_last")
