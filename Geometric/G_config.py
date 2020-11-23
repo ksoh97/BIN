@@ -15,7 +15,7 @@ if mode == 0:
     file_name = "Geometric_classifier_pertraining"
     lr = 0.0005
 
-else:
+elif mode == 1:
     file_name = "Geometric_cfmap"
     lr_g, lr_d = 0.0005, 0.0005
     g_step, d_step = 1, 1
