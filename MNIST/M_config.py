@@ -5,15 +5,15 @@ disc_ch, cfmap_ch = 32, 32
 epoch = 100
 batch_size = 256
 
-save_path = "/DataCommon/ksoh/Results/MNIST/mode%d/" % mode
-cls_weight_path = "/DataCommon/ksoh/Results/MNIST/mode0/MNIST_10cls_encoder_only_fcdrop/cls_model_095/variables/variables"
-enc_weight_path = "/DataCommon/ksoh/Results/MNIST/mode0/MNIST_10cls_encoder_only_fcdrop/enc_model_095/variables/variables"
+save_path = "Your storage path in here"
+cls_weight_path = "Pre-trained classifier model path in here"
+enc_weight_path = "Pre-trained encoder model path in here"
 
 if mode == 0:
     file_name = "MNIST_classifier_pretraining"
     lr = 0.0001
     lr_decay = 0.98
-else:
+elif mode == 1:
     file_name = "MNIST_cfmap"
     g_step, d_step = 1, 1
     lr_g, lr_d = 0.001, 0.001
