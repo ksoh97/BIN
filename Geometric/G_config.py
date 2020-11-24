@@ -22,5 +22,5 @@ elif mode == 1:
     one_sided_label_smoothing = True
 
 # Hyper-param
-hyper_param = [1.0,  10.0,  2.0,  1.0,  1.0]
+hyper_param = [1.0,  10.0,  1.0,  10.0,  0.5]
 loss_type = {'cls': hyper_param[0], 'norm': hyper_param[1], 'GAN': hyper_param[2], 'cyc': hyper_param[3], 'dis': hyper_param[4]}
