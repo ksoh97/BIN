@@ -16,6 +16,7 @@ scikit-learn (0.23.2)
 Place them into "data_path" on each Config.py
 1. [HandWritten digits data (MNIST)](http://yann.lecun.com/exdb/mnist/)
 2. [3D Geometric shape data](https://github.com/deepmind/3d-shapes)
+3. [Alzheimer’s Disease Neuroimaging Initiative (ADNI)](http://adni.loni.usc.edu/)
 
 
 ### How to run
