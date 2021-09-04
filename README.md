@@ -1,4 +1,4 @@
-# Born-Identity-Network
+# Born-Identity-Network (BIN)
 Tensorflow implementation of [Born Identity Network: Multi-way Counterfactual Map Generation to Explain a Classifier's Decision](https://arxiv.org/abs/2011.10381).
 
 
