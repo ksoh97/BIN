@@ -6,6 +6,10 @@ Tensorflow implementation of [Born Identity Network: Multi-way Counterfactual Ma
 
 ## Results
 
+
+### Extra interpolaion using 3D Shapes
+![Group 1492](https://user-images.githubusercontent.com/57162425/141602797-365a7d2c-dc92-4503-9be7-143d411f0543.png)
+
 ## Requirements
 tensorflow (2.2.0)\
 tensorboard (2.2.2)\
