@@ -1,6 +1,8 @@
 # Born-Identity-Network
 Tensorflow implementation of [Born Identity Network: Multi-way Counterfactual Map Generation to Explain a Classifier's Decision](https://arxiv.org/abs/2011.10381).
 
+### Network Archiecture
+![Group 1387](https://user-images.githubusercontent.com/57162425/141602585-4a434cd5-530b-4ebe-b873-df11e98b8f81.png)
 
 ### Requirements
 tensorflow (2.2.0)\
